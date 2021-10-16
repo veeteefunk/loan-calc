@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: rgb(78, 73, 73);
+}
+
+.container {
+  margin: 40px auto;
+  height: 300px;
+  width: 500px;
+  background-color: white;
+}
+
+.loan-container {
+  padding: 0 10px;
+  margin: 5px;
+}
+
+.loan-container label {
+  background-color: lightgray;
+  padding: 5px;
+}
+
+.annual-container {
+  padding: 0 10px;
+  margin: 5px;
+}
+
+.annual-container label {
+  background-color: lightgray;
+  padding: 5px;
+}
+
+.loan-container input[type="number"] {
+  padding: 5px 0;
+  padding-right: 290px;
+}
+
+.annual-container input[type="number"] {
+  padding: 5px 0;
+  padding-right: 290px;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.form {
+  display: grid;
+}
+
+input[name="years"] {
+  padding: 5px 5px;
+  margin: 10px 22px;
+}
+
+.btn {
+  margin: 10px 20px;
+  padding: 8px 0;
+  background-color: darkblue;
+  color: white;
+  border: none;
+}
